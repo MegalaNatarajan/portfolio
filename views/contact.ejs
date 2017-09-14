@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title> Contact Megala </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" type="text/css" href="form.css" />
+    </head>
+    <body>
+            <input id="burger" type="checkbox" hidden />
+            
+            <label for="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+          <div class="headline"> 
+            <h3>&lt;contact&gt;</h3>
+                <p>You can drop-in a mail here!</p>
+        </div>      
+            <div class="middle">
+            <form action="/thanks" method="POST" class="float-label" spellcheck="false">
+                
+                <div class="field-container">
+                <input id="firstname" name="firstName" type="text" required class="field" placeholder="First Name">
+                <label for="firstName" class="floating-label">First Name</label>
+                <div class="field-underline"></div>
+                </div>
+                <div class="field-container">
+                <input name="lastName" type="text" required class="field" placeholder="Last Name"> 
+                <label for="lastName" class="floating-label">Last Name</label>
+                <div class="field-underline"></div>
+                </div>
+                <div class="field-container">
+                <input name="email" type="text" required class="field" placeholder="Email">
+                <label for="email" class="floating-label">Email</label>
+                <div class="field-underline"></div>
+                </div>
+                <div class="field-container">
+                <textarea id="message" name="message" class="field" placeholder="Message" required></textarea>
+                <label for="message" class="floating-label">Message</label>
+                <div class="field-underline"></div>
+                </div>
+                <div class="field-container">
+                 <input type="submit" class="form-submit-button"/>
+                </div>
+              </form>
+            </div> 
+            <div class="bottomline">  
+              <h3>&lt;/contact&gt;</h3>
+            </div>
+            <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+            <script src="index.js"></script>
+          </body>
+        </html>      
