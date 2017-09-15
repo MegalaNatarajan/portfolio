@@ -2,7 +2,7 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: nm-portfolio
+      appname: nm-portfolio.herokuapp
 machine:
   node:
     version: 8.1.4
