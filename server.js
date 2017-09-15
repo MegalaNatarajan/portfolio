@@ -2,6 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const sgMail = require("@sendgrid/mail");
+const PORT = process.env.PORT || 3000;
 var first_name;
 var last_name;
 var email;
@@ -55,6 +56,7 @@ app.post('/thanks',(req, res) => {
      sgMail.send(msg);
 });
 
-app.listen(8080,() => {
+/*app.listen(8080,() => {
     console.log('listening at http://localhost:8080');
-});
+});*/
+app.listen(PORT, () => console.log(`Server is listening on ${PORT}`));
