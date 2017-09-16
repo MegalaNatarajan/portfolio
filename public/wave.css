@@ -19,6 +19,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 0 auto;
+  
   width: 50%;
 }
 
