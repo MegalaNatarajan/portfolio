@@ -156,6 +156,16 @@ body input + label {
     width: 100%;
     height: auto;
   }
+  .circular--landscape img {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .circular--landscape:hover img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
   
   /*.text {
     margin-top: 450px;
