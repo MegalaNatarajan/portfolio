@@ -137,8 +137,10 @@ body input + label {
   }
 
   #social {
-    margin-top: 25%;
+    position: static;
+    margin-top: 400px;
     margin-left:48%;
+    
   }
 
   .circular--landscape {
