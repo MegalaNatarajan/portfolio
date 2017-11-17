@@ -137,16 +137,10 @@ body input + label {
   }
 
   #social {
-    margin-top: 4%;
+    margin-top: 1%;
     margin-left:48%;
   }
 
-  /*#round {
-    margin-top:1%;
-    width:10%;
-    height:20%;
-    border-radius: 50%;
-  }*/
   .circular--landscape {
     margin-top:2px;
     position: relative;
