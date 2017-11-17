@@ -136,5 +136,28 @@ body input + label {
     color: #FF0072
   }
 
+  #social {
+    margin-top: 4%;
+    margin-left:48%;
+  }
+
+  /*#round {
+    margin-top:1%;
+    width:10%;
+    height:20%;
+    border-radius: 50%;
+  }*/
+  .circular--landscape {
+    margin-top:2px;
+    position: relative;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
   
+  .circular--landscape img {
+    width: 100%;
+    height: auto;
+  }
   

@@ -6,10 +6,14 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="main.css" />
         <link rel="stylesheet" type="text/css" href="wave.css" />
+        <link rel="stylesheet" type="text/css" href="project.css" />
+        <link rel="stylesheet" type="text/css" href="form.css" />
         <link rel="icon" href="data:,">
     </head>
     <body>
-           
+                 <div class="circular--landscape">
+                     <img id="round" src="/images/megala.jpg" />
+                </div>
                   <input id="burger" type="checkbox" hidden />
                   
                   <label for="burger">
@@ -30,6 +34,131 @@
                         </div>
                         <div class="text">Hi! I am <%= person.firstName %> <%= person.lastName %>. I am a junior web developer.</div>
                       </div>
+                      <div id="social">
+                          <a href="https://github.com/MegalaNatarajan" target="new">
+                          <img src="/images/github.png" style="width:25px" /></a>  
+                          <a href="https://www.linkedin.com/in/manimegalai-natarajan-4b1410149/" target="new">
+                          <img src="/images/linkedin.png" style="width:38px" /></a>
+                      </div>
+                      <div class="headline" style="margin-top:300px"> 
+                        <h3>&lt;project&gt;</h3>
+                  </div> 
+                  <div class="top1">
+                  <div class="sub">
+                      <h4>San Diego Top Spots</h4>
+                      This is a small informational website containing a list of 30 "top places to see" in San Diego using NodeJS, React.
+                      <a href="https://github.com/MegalaNatarajan/startnow-react100-san-diego-top-spots">
+                        VIEW GITHUB</a> | 
+                        <a href="https://nm-sandiego-top-spots.herokuapp.com/" target="new">
+                            WEB SITE</a>  
+                    </div>  
+                  <div class="sub">
+                        <h4>Dog Breeds</h4>
+                        I created a ‘Dog Breeds’ project using react and axios. I used dog API to get dog breeds and dog images. user can enter or select a type of dog name and find their favorite dog.
+                        <a href="https://github.com/MegalaNatarajan/startnow-react100-hackathon">
+                            VIEW GITHUB</a> | 
+                            <a href="https://nm-hackathon.herokuapp.com/" target="new">
+                                WEB SITE</a>     
+                    </div>  
+                  <div class="sub">
+                        <h4>To Do List</h4>
+                        This is a small to do list project. You can create, edit and delete list. 
+                        <a href="https://github.com/MegalaNatarajan/startnow-react100-vstda">
+                            VIEW GITHUB</a> | 
+                            <a href="https://nm-vstda.herokuapp.com/" target="new">
+                                WEB SITE</a> 
+                    </div>
+                    <div class="sub"> 
+                            <h4>Mortgage Calculator</h4>
+                            This is a Mortgage Calculator project. You can calculate mortgage. 
+                            
+                          <a href="https://github.com/MegalaNatarajan/startnow-react100-mortgage-calculator">
+                                VIEW GITHUB</a> | 
+                                <a href="https://nm-mortgage-calculator.herokuapp.com/" target="new">
+                                    WEB SITE</a>     
+                    </div>
+                    <div class="sub">
+                                <h4>Change Calculator</h4>
+                                 Change Calculator program is used to enter how much money is due? how much was received? then calculate how much change due?
+                                <a href="https://github.com/MegalaNatarajan/startnow-react100-change-calculator">
+                                    VIEW GITHUB</a> | 
+                                    <a href="https://nm-change-calculator.herokuapp.com/" target="new">
+                                        WEB SITE</a>     
+                    </div>   
+                    </div>
+                  <div class="bottomline">  
+                        <h3>&lt;/project&gt;</h3>
+                  </div>
+                  <div class="row" style="margin-top:50px">
+                    <div class="col">
+                <div class="about_head"> 
+                      <h3>&lt;about&gt;</h3>
+                </div>
+                    </div>
+                </div>
+                <div class="row">
+                      <div class="col">
+                <div class="about">
+                    I'm a junior web developer.
+                    I completed a Master’s degree in Information Technology.  I am quite focused about making my career in the web development sector. 
+                    My technical skills include using software such as Dreamweaver, Photoshop, Programming languages such as JavaScript (Node.js, React), Java, Jquery HTML, CSS, AJAX, MongoDB and also MYSQL.
+                </div>  
+                      </div>
+                </div>
+                <div class="row">
+                      <div class="col">  
+                <div class="about_bottom">  
+                      <h3>&lt;/about&gt;</h3>
+                    </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                    <div class="headline"> 
+                      <h3>&lt;contact&gt;</h3>
+                          <p>You can drop-in a mail here!</p>
+                    </div> 
+                  </div>
+                </div>  
+                <div class="row">
+                    <div class="col">   
+                      <div class="middle">
+                      <form action="/thanks" method="POST" class="float-label" spellcheck="false">
+                          
+                          <div class="field-container">
+                          <input id="firstname" name="firstName" type="text" required class="field" placeholder="First Name">
+                          <label for="firstName" class="floating-label">First Name</label>
+                          <div class="field-underline"></div>
+                          </div>
+                          <div class="field-container">
+                          <input name="lastName" type="text" required class="field" placeholder="Last Name"> 
+                          <label for="lastName" class="floating-label">Last Name</label>
+                          <div class="field-underline"></div>
+                          </div>
+                          <div class="field-container">
+                          <input name="email" type="text" required class="field" placeholder="Email">
+                          <label for="email" class="floating-label">Email</label>
+                          <div class="field-underline"></div>
+                          </div>
+                          <div class="field-container">
+                          <textarea id="message" name="message" class="field" placeholder="Message" required></textarea>
+                          <label for="message" class="floating-label">Message</label>
+                          <div class="field-underline"></div>
+                          </div>
+                          <div class="field-container">
+                           <input type="submit" class="form-submit-button"/>
+                          </div>
+                        </form>
+                      </div> 
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col">
+                      <div class="bottomline">  
+                        <h3>&lt;/contact&gt;</h3>
+                      </div>
+                    </div>
+                  </div> 
        
         <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
