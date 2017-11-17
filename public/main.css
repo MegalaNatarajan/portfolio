@@ -137,7 +137,7 @@ body input + label {
   }
 
   #social {
-    margin-top: 1%;
+    margin-top: 25%;
     margin-left:48%;
   }
 
@@ -155,3 +155,46 @@ body input + label {
     height: auto;
   }
   
+  /*.text {
+    margin-top: 450px;
+    color: #FF0072;
+    font-size: 2rem;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+  }*/
+
+  .box-with-text {
+    background-image: -webkit-linear-gradient(left, #FF0072 50%, white 50%);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-size: 100% 100px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: stripes 2s linear infinite;
+    animation: stripes 2s linear infinite;
+  }
+  
+  @-webkit-keyframes stripes {
+    100% {
+      background-position: 0 -50px;
+    }
+  }
+  
+  @keyframes stripes {
+    100% {
+      background-position: 385px 0;
+    }
+  }
+  .box-with-text {
+   position: absolute;
+    top: 80%;
+    left: 50%;
+    white-space: nowrap;
+    text-align: center;
+    text-transform: uppercase;
+    font: bold 2vmax/.8 Open Roboto, Impact;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
