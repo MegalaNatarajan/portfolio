@@ -144,8 +144,8 @@ body input + label {
   .circular--landscape {
     margin-top:2px;
     position: relative;
-    width: 160px;
-    height: 160px;
+    width: 120px;
+    height: 120px;
     overflow: hidden;
     border-radius: 50%;
   }
