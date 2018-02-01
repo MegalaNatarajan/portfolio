@@ -8,15 +8,19 @@
   margin-left: 10%;
   margin-top: 10px; 
 }
-h3 {
-    color:#FF0072;
+
+.project {
+    color:#218587; 
+}
+.about1 {
+    color:#dbae55; 
 }
 .top1 {
     margin-left: 15%;
     margin-right: 10%;
 }
 .sub {
-    border: 1px solid #FF0072;
+    border: 1px solid #218587;
     box-sizing: border-box;
     margin-bottom: 8px;
     margin-top: 8px;
@@ -26,13 +30,13 @@ h3 {
     padding: 5px;
 }
 a {
-    color: #FF0072;
+    color: #218587;
     text-decoration: none;
     
 }
 a:hover {
     text-decoration: none;
-    color: #EF3D8D;
+    color: #239293;
 }
 
 

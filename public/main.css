@@ -169,8 +169,8 @@ body input + label {
   
   .text {
     margin-top: 370px;
-    color: #FF0072;
-   /* font-size: 0.5em;*/
+   /* color: #FF0072;*/
+   color: #FFFFFF;
     width: 100%;
     font-weight: 600;
     text-align: center;
@@ -234,7 +234,7 @@ body input + label {
     height: 0;
     border-left: 155px solid transparent;
     border-right: 155px solid transparent;
-    border-top: 200px solid #FF0072;
+    border-top: 200px solid #218587;
     margin-left: 40%;
     margin-top: 10%;
    }
@@ -247,7 +247,7 @@ body input + label {
     height: 0;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
-    border-bottom: 150px solid #FF0072;
+    border-bottom: 150px solid #dbae55;
     margin-left: 40%;
     margin-top: 5%;
    }
@@ -257,7 +257,7 @@ body input + label {
     height: 0;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
-    border-top: 150px solid #FF0072;
+    border-top: 150px solid #dbae55;
     margin-left: 45%;
     margin-top: -3.5%;
    }
@@ -266,9 +266,9 @@ body input + label {
     width: 0px;
     height: 0px;
     border-right: 80px solid transparent;
-    border-top: 80px solid #FF0072;
-    border-left: 80px solid #FF0072;
-    border-bottom: 80px solid #FF0072;
+    border-top: 80px solid #1fba1a;
+    border-left: 80px solid #1fba1a;
+    border-bottom: 80px solid #1fba1a;
     border-top-left-radius: 80px;
     border-top-right-radius: 80px;
     border-bottom-left-radius: 80px;
@@ -305,7 +305,7 @@ body input + label {
       height: 0;
       border-left: 125px solid transparent;
       border-right: 125px solid transparent;
-      border-top: 170px solid #FF0072;
+      border-top: 170px solid #218587;
       margin-left: 30%;
       margin-top: 10%;
      }
@@ -317,9 +317,9 @@ body input + label {
       width: 0px;
       height: 0px;
       border-right: 50px solid transparent;
-      border-top: 50px solid #FF0072;
-      border-left: 50px solid #FF0072;
-      border-bottom: 50px solid #FF0072;
+      border-top: 50px solid #1fba1a;
+      border-left: 50px solid #1fba1a;
+      border-bottom: 50px solid #1fba1a;
       border-top-left-radius: 50px;
       border-top-right-radius: 50px;
       border-bottom-left-radius: 50px;
@@ -333,7 +333,7 @@ body input + label {
       height: 0;
       border-left: 70px solid transparent;
       border-right: 70px solid transparent;
-      border-bottom: 120px solid #FF0072;
+      border-bottom: 120px solid #dbae55;
       margin-left: 30%;
       margin-top: 5%;
      }
@@ -343,7 +343,7 @@ body input + label {
       height: 0;
       border-left: 70px solid transparent;
       border-right: 70px solid transparent;
-      border-top: 120px solid #FF0072;
+      border-top: 120px solid #dbae55;
       margin-left: 35%;
       margin-top: -5%;
      }
@@ -377,7 +377,7 @@ body input + label {
       height: 0;
       border-left: 125px solid transparent;
       border-right: 125px solid transparent;
-      border-top: 170px solid #FF0072;
+      border-top: 170px solid #218587;
       margin-left: 30%;
       margin-top: 15%;
      }
@@ -390,7 +390,7 @@ body input + label {
       height: 0;
       border-left: 70px solid transparent;
       border-right: 70px solid transparent;
-      border-bottom: 120px solid #FF0072;
+      border-bottom: 120px solid #dbae55;
       margin-left: 30%;
       margin-top: 5%;
      }
@@ -400,7 +400,7 @@ body input + label {
       height: 0;
       border-left: 70px solid transparent;
       border-right: 70px solid transparent;
-      border-top: 120px solid #FF0072;
+      border-top: 120px solid #dbae55;
       margin-left: 35%;
       margin-top: -9%;
      }
@@ -410,9 +410,9 @@ body input + label {
       width: 0px;
       height: 0px;
       border-right: 50px solid transparent;
-      border-top: 50px solid #FF0072;
-      border-left: 50px solid #FF0072;
-      border-bottom: 50px solid #FF0072;
+      border-top: 50px solid #1fba1a;
+      border-left: 50px solid #1fba1a;
+      border-bottom: 50px solid #1fba1a;
       border-top-left-radius: 50px;
       border-top-right-radius: 50px;
       border-bottom-left-radius: 50px;
